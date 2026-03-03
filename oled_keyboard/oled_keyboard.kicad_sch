@@ -926,6 +926,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5961,6 +6068,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 99.06) (xy 431.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463fff42-a94c-4961-9804-68b4325ef8d3")
+	)
+	(wire
+		(pts
 			(xy 436.88 180.34) (xy 447.04 180.34)
 		)
 		(stroke
@@ -6501,6 +6618,16 @@
 	)
 	(wire
 		(pts
+			(xy 427.99 72.39) (xy 427.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67777d44-57ec-4221-b116-57a34cb23177")
+	)
+	(wire
+		(pts
 			(xy 297.18 223.52) (xy 297.18 222.25)
 		)
 		(stroke
@@ -6868,6 +6995,16 @@
 			(type default)
 		)
 		(uuid "82b58b0d-a716-4bf1-8bfd-356a42501b18")
+	)
+	(wire
+		(pts
+			(xy 422.91 72.39) (xy 427.99 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832b8e0d-606d-491e-b51f-e12d149157e3")
 	)
 	(wire
 		(pts
@@ -7261,6 +7398,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 106.68) (xy 431.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb7fdab-8a59-4d9f-bbfe-768e8e9ad389")
+	)
+	(wire
+		(pts
 			(xy 247.65 311.15) (xy 247.65 309.88)
 		)
 		(stroke
@@ -7298,6 +7445,16 @@
 			(type default)
 		)
 		(uuid "a28e0760-a497-4f84-b448-4fd4e44d20e7")
+	)
+	(wire
+		(pts
+			(xy 422.91 83.82) (xy 430.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d984e0-b470-4e4b-9f81-3a2e11f9dd03")
 	)
 	(wire
 		(pts
@@ -7638,6 +7795,16 @@
 			(type default)
 		)
 		(uuid "b6d35ecc-0f53-4636-84b1-235965654b57")
+	)
+	(wire
+		(pts
+			(xy 422.91 91.44) (xy 431.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76be626-4b3d-4217-8326-b23e350766bd")
 	)
 	(wire
 		(pts
@@ -9350,6 +9517,16 @@
 		)
 		(uuid "0daa37c6-b6fb-4db4-b592-5ddac6bd16ff")
 	)
+	(label "DC"
+		(at 425.45 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e94a111-3fbf-429e-bb20-638d289da54d")
+	)
 	(label "SCLK"
 		(at 77.47 300.99 90)
 		(effects
@@ -9630,6 +9807,16 @@
 		)
 		(uuid "5687158b-ddde-470a-811b-3e3d272e0df5")
 	)
+	(label "MOSI"
+		(at 425.45 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "585d2ac5-ddc4-4696-81b4-3aada92819ec")
+	)
 	(label "DC"
 		(at 283.21 344.17 90)
 		(effects
@@ -9879,6 +10066,16 @@
 			(justify left bottom)
 		)
 		(uuid "9d0f7322-2ad5-463e-a794-eec8105643a4")
+	)
+	(label "RES"
+		(at 425.45 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d750c1f-9496-4297-8c2e-fc61e51e50fa")
 	)
 	(label "MISO"
 		(at 494.03 157.48 0)
@@ -10179,6 +10376,16 @@
 			(justify left bottom)
 		)
 		(uuid "e693ddb3-a0bf-4f90-b922-ca4df55345a3")
+	)
+	(label "SCK"
+		(at 425.45 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e733ff9c-a2d9-4350-8294-ecd170446e64")
 	)
 	(label "CS6"
 		(at 436.88 177.8 0)
@@ -14256,6 +14463,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 422.91 99.06 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3346f73a-bf2a-4f9b-b14b-40c57aeb47e8")
+		(property "Reference" "TP6"
+			(at 410.718 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 409.702 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 422.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 422.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 422.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17ec7d1b-1dff-4c45-9ee9-8197f34138ca")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 148.59 67.31 0)
 		(unit 1)
@@ -17292,6 +17564,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 422.91 83.82 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60040d55-d06f-4a65-8af7-e645f7e9a6ff")
+		(property "Reference" "TP4"
+			(at 410.718 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 409.702 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 422.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 422.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 422.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ebc601b-b265-4515-8228-da0f308853a2")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 290.83 349.25 0)
 		(unit 1)
@@ -17955,6 +18292,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 425.45 60.96 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cc9de5f-afa6-4e30-80fa-7def64822fad")
+		(property "Reference" "TP1"
+			(at 413.258 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 412.242 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 425.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 425.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 425.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfc790c4-42ff-4601-9d34-96cc6ee4bd30")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 255.27 349.25 0)
 		(unit 1)
@@ -18448,6 +18850,74 @@
 			(project "oled_keyboard"
 				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 425.45 66.04 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "722b754d-4284-4be4-921f-2c5353aaa9f7")
+		(property "Reference" "#PWR067"
+			(at 421.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 429.26 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 425.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 425.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 425.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f450709-18a4-4ef1-ab23-b7902ddf443e")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -19192,6 +19662,71 @@
 			(project "oled_keyboard"
 				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 422.91 72.39 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85510b6e-68ce-49ed-b8a6-006500f31560")
+		(property "Reference" "TP3"
+			(at 410.718 70.866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 409.702 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 422.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 422.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 422.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f00af35-9306-48de-b701-8c6e6c4fae95")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -22041,6 +22576,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 427.99 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8df42e3-b3ef-4cf8-a394-d3f7ab868ed6")
+		(property "Reference" "#PWR068"
+			(at 427.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 427.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 427.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 427.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 427.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8c0aa78-70a3-4a08-927b-7721b7618e49")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 154.94 260.35 0)
 		(unit 1)
@@ -23474,6 +24075,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V0")
+		(at 425.45 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1eb6073-b83e-456b-9ace-4c95a1d0309f")
+		(property "Reference" "#PWR069"
+			(at 421.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 430.784 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 425.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 425.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 425.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7245be56-e59e-4aa6-8ae2-9b4af45876f6")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 354.33 0)
 		(unit 1)
@@ -23603,6 +24269,71 @@
 			(project "oled_keyboard"
 				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 422.91 106.68 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e63c457e-4f2c-4717-b3cc-3ffdeeba4913")
+		(property "Reference" "TP7"
+			(at 410.718 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 409.702 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 422.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 422.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 422.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c658ea3e-7f60-406e-9122-8f9ffe13ebfa")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -24372,6 +25103,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 422.91 91.44 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f63f2a29-e14b-4548-a8ca-b6b46ac3f10c")
+		(property "Reference" "TP5"
+			(at 410.718 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 409.702 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 422.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 422.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 422.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae06b7be-3fc0-4803-902c-ab9a97cdd96d")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 147.32 306.07 0)
 		(unit 1)
@@ -24692,6 +25488,71 @@
 			(project "oled_keyboard"
 				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 425.45 66.04 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7d3e604-7e71-4999-82c4-3a9f0b6308c2")
+		(property "Reference" "TP2"
+			(at 413.258 64.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 412.242 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 425.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 425.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 425.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b5107e5-375a-4dcb-872d-bd5e58cf6b45")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
