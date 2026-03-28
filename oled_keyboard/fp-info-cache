@@ -1,4 +1,4 @@
-27059690112299017
+27065013749763242
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2813,6 +2813,13 @@ speaker CUI
 0
 2
 2
+CM4102008
+MODULE_CM4102008
+
+
+0
+204
+204
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -71749,6 +71756,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+HRS_TF31-20S-0.5SH_800
+
+
+0
+22
+22
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -107540,3 +107554,10 @@ Varistor VF
 0
 2
 2
+stmps2171
+SOT95P280X145-5N
+STMPS2171STR
+Switch
+0
+5
+5

@@ -926,6 +926,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -8311,16 +8418,6 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 149.86) (xy 447.04 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f559fc-fbc0-44eb-910b-3ecd0d0ba2e7")
-	)
-	(wire
-		(pts
 			(xy 297.18 256.54) (xy 297.18 257.81)
 		)
 		(stroke
@@ -11568,7 +11665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "20p_connector:HRS_TF31-20S-0.5SH_800_"
+		(property "Footprint" "Library:HRS_TF31-20S-0.5SH_800"
 			(at 273.05 203.2 0)
 			(effects
 				(font
@@ -11794,6 +11891,73 @@
 			(project "oled_keyboard"
 				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 417.83 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "053b4f53-9080-466e-9fb9-849eb0d53c7d")
+		(property "Reference" "TP3"
+			(at 420.37 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 420.37 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+			(at 422.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 422.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 417.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bebd02b9-c772-456c-b208-32365c0f07a0")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12765,7 +12929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "20p_connector:HRS_TF31-20S-0.5SH_800_"
+		(property "Footprint" "Library:HRS_TF31-20S-0.5SH_800"
 			(at 74.93 245.11 0)
 			(effects
 				(font
@@ -14506,7 +14670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "20p_connector:HRS_TF31-20S-0.5SH_800_"
+		(property "Footprint" "Library:HRS_TF31-20S-0.5SH_800"
 			(at 273.05 246.38 0)
 			(effects
 				(font
@@ -14819,6 +14983,73 @@
 			(project "oled_keyboard"
 				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 394.97 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39e63811-6240-4189-8e22-fcd9703250a2")
+		(property "Reference" "TP1"
+			(at 397.51 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 397.51 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+			(at 400.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 400.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 394.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1279d367-1f78-4209-9dbc-9b6b417e7bad")
+		)
+		(instances
+			(project ""
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -15206,7 +15437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "20p_connector:HRS_TF31-20S-0.5SH_800_"
+		(property "Footprint" "Library:HRS_TF31-20S-0.5SH_800"
 			(at 74.93 290.83 0)
 			(effects
 				(font
@@ -15507,6 +15738,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 394.97 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48186a22-968b-4087-8088-b7a6beb00dba")
+		(property "Reference" "#PWR063"
+			(at 394.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 394.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 394.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 394.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "795615b9-d48c-4fda-828a-240bb5434f42")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x20_Socket")
 		(at 172.72 203.2 90)
 		(unit 1)
@@ -15532,7 +15829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "20p_connector:HRS_TF31-20S-0.5SH_800_"
+		(property "Footprint" "Library:HRS_TF31-20S-0.5SH_800"
 			(at 172.72 203.2 0)
 			(effects
 				(font
@@ -15756,6 +16053,71 @@
 			(project "oled_keyboard"
 				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 417.83 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bae8c86-635a-49bb-89b2-112fa371ec16")
+		(property "Reference" "#PWR068"
+			(at 417.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 417.576 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 417.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 417.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53185b1b-9c00-4a08-ac1b-ce50ccb08e7c")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -17593,7 +17955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "20p_connector:HRS_TF31-20S-0.5SH_800_"
+		(property "Footprint" "Library:HRS_TF31-20S-0.5SH_800"
 			(at 172.72 335.28 0)
 			(effects
 				(font
@@ -18203,7 +18565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "20p_connector:HRS_TF31-20S-0.5SH_800_"
+		(property "Footprint" "Library:HRS_TF31-20S-0.5SH_800"
 			(at 273.05 292.1 0)
 			(effects
 				(font
@@ -18382,6 +18744,73 @@
 			(project "oled_keyboard"
 				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 406.4 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ffecc4b-344b-4d65-baff-d4d2f53b4619")
+		(property "Reference" "TP2"
+			(at 408.94 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 408.94 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+			(at 411.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 406.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02c2838d-d564-4c26-ab2a-b0aed987fc40")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -20275,7 +20704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "20p_connector:HRS_TF31-20S-0.5SH_800_"
+		(property "Footprint" "Library:HRS_TF31-20S-0.5SH_800"
 			(at 74.93 334.01 0)
 			(effects
 				(font
@@ -20397,7 +20826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "20p_connector:HRS_TF31-20S-0.5SH_800_"
+		(property "Footprint" "Library:HRS_TF31-20S-0.5SH_800"
 			(at 273.05 335.28 0)
 			(effects
 				(font
@@ -21908,6 +22337,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V0")
+		(at 406.4 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6acba72-9493-418f-a12e-aec1da4ce843")
+		(property "Reference" "#PWR067"
+			(at 406.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 406.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 406.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 406.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 406.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45e94bff-042d-4290-946e-bf6881444e1e")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 196.85 355.6 0)
 		(unit 1)
@@ -22784,7 +23279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "20p_connector:HRS_TF31-20S-0.5SH_800_"
+		(property "Footprint" "Library:HRS_TF31-20S-0.5SH_800"
 			(at 172.72 292.1 0)
 			(effects
 				(font
@@ -23106,7 +23601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "20p_connector:HRS_TF31-20S-0.5SH_800_"
+		(property "Footprint" "Library:HRS_TF31-20S-0.5SH_800"
 			(at 74.93 201.93 0)
 			(effects
 				(font
@@ -23603,73 +24098,6 @@
 			(project "oled_keyboard"
 				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 440.69 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6585279-527e-47f4-8f3a-1f54c23dd729")
-		(property "Reference" "#PWR063"
-			(at 434.34 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 436.88 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 440.69 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 440.69 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 440.69 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e92fe80-6011-42e8-8f82-d3eea651f60c")
-		)
-		(instances
-			(project "oled_keyboard"
-				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -24601,7 +25029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "20p_connector:HRS_TF31-20S-0.5SH_800_"
+		(property "Footprint" "Library:HRS_TF31-20S-0.5SH_800"
 			(at 172.72 246.38 0)
 			(effects
 				(font

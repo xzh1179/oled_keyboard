@@ -187,7 +187,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.3,
+        0.4,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -500,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -671,7 +675,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "J",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
