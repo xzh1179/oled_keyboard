@@ -54,9 +54,10 @@ The idea is to make a keyboard that is not only functional, but also programmabl
 
 Current hardware exploration includes:
 
-- microcontroller: RP2040 / other MCU platform
-- multiple OLED displays
+- microcontroller: RP2040 
+- OLED display 0.64inch 64x64 pixels, RGB color, based on SSD1357 controller 
 - keyboard matrix scanning
+- Kailh Choc V1 mechanical switch
 - power distribution for many small displays
 - SPI display communication
 - optional rotary encoder support
@@ -89,7 +90,7 @@ This project involves several interesting engineering challenges:
 
 - driving many OLED displays efficiently
 - balancing refresh rate and power consumption
-- routing high-density display interconnects on PCB
+- routing high-density display interconnects on PCB while keeping the layout compact, especially do not create too large space between two keys
 - scaling SPI/I2C buses
 - memory usage for icons/fonts/framebuffers
 - firmware architecture for real-time input + rendering
@@ -120,7 +121,11 @@ Current focus areas include:
 ```
 
 ## Assembly
+The initial assembly of the keyboard is shown in the two figures below. At this stage, only one screen and one mechanical switch were mounted 
+in order to validate the basic functionalities before proceeding with the soldering of the remaining components.
 
 ![screen](images/oled_keyboard_v2.0_2.jpeg)
 
 ![screen](images/oled_keyboard_v2.0_1.jpeg) 
+
+Initial assembly has been completed. Functional testing will be conducted in the next stage.
