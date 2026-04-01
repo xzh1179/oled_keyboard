@@ -5,7 +5,7 @@ A custom mechanical keyboard project featuring per-key OLED displays for dynamic
 ## Overview
 
 OLED Keyboard is an experimental custom keyboard platform where each key can display its own icon, label, layer state, shortcut, or custom graphics.  
-The goal of this project is to explore the intersection of keyboard design, embedded systems, display integration, and user interaction.
+The goal of this project is to explore the intersection of keyboard design, multi-panel display integration, power distribution, and user interaction.
 
 This project combines:
 
@@ -117,3 +117,10 @@ Current focus areas include:
 ├── images/          # Photos, renders, screenshots, diagrams
 ├── tools/           # Helper scripts, generators, utilities
 └── README.md
+```
+
+## Assembly
+
+![screen](docs/images/oled_keyboard_v2.0_2.jpg)
+
+![screen](docs/images/oled_keyboard_v2.0_1.jpg) 
