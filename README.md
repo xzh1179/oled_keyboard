@@ -121,6 +121,6 @@ Current focus areas include:
 
 ## Assembly
 
-![screen](images/oled_keyboard_v2.0_2.jpg)
+![screen](images/oled_keyboard_v2.0_2.jpeg)
 
-![screen](images/oled_keyboard_v2.0_1.jpg) 
+![screen](images/oled_keyboard_v2.0_1.jpeg) 
