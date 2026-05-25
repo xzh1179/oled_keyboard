@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "keyboard_custom")(type "KiCad")(uri "${KIPRJMOD}/keyboard_custom.pretty")(options "")(descr ""))
+  (lib (name "20pin_connector")(type "KiCad")(uri "D:/personal_projects/oled_keyboard/components/20p_connector")(options "")(descr ""))
+)
