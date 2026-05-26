@@ -6318,7 +6318,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 165.1) (xy 513.08 165.1)
+			(xy 492.76 165.1) (xy 505.46 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7288,6 +7288,16 @@
 	)
 	(wire
 		(pts
+			(xy 513.08 162.56) (xy 520.7 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4a3863-58d7-4bbe-a342-12d333fea935")
+	)
+	(wire
+		(pts
 			(xy 144.78 214.63) (xy 144.78 213.36)
 		)
 		(stroke
@@ -7595,6 +7605,16 @@
 			(type default)
 		)
 		(uuid "a3e7bf11-c208-469c-a923-724be40b2934")
+	)
+	(wire
+		(pts
+			(xy 513.08 165.1) (xy 520.7 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3eb2c8c-842a-4dea-96af-fcb54910d32b")
 	)
 	(wire
 		(pts
@@ -7908,7 +7928,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 162.56) (xy 513.08 162.56)
+			(xy 492.76 162.56) (xy 505.46 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9678,7 +9698,7 @@
 		(uuid "35bb5c1f-f454-4975-9e07-bbadda5ef165")
 	)
 	(label "SCK"
-		(at 499.11 162.56 0)
+		(at 495.3 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10168,7 +10188,7 @@
 		(uuid "b8cef602-f350-4ffc-b99f-fe98feeeedfe")
 	)
 	(label "SCLK"
-		(at 513.08 162.56 180)
+		(at 520.7 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10318,7 +10338,7 @@
 		(uuid "d22a60ae-d77a-4e8b-b4a2-6711ec61833b")
 	)
 	(label "SDIN"
-		(at 513.08 165.1 180)
+		(at 520.7 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10388,7 +10408,7 @@
 		(uuid "e5ffe4c4-74df-4003-9f0a-4155256fb5c4")
 	)
 	(label "MOSI"
-		(at 499.11 165.1 0)
+		(at 494.03 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19456,6 +19476,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 509.27 162.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a81f29a-48cb-4220-a558-103beee9034c")
+		(property "Reference" "R18"
+			(at 505.714 160.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33R"
+			(at 509.778 160.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 509.27 160.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 509.27 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 509.27 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1d49d17-c7aa-46f6-a332-6387c6b3f5d0")
+		)
+		(pin "2"
+			(uuid "71cd4e2f-8e83-490f-a887-6e6ba6fc824a")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:NetTie_2")
 		(at 518.16 336.55 180)
 		(unit 1)
@@ -24199,6 +24288,75 @@
 			(project "oled_keyboard"
 				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 509.27 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfb30632-d336-401e-8ade-c95615a74075")
+		(property "Reference" "R19"
+			(at 505.46 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33R"
+			(at 509.27 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 509.27 163.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 509.27 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 509.27 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7ae59cd-cf4d-48bf-a223-56b0954748f7")
+		)
+		(pin "2"
+			(uuid "31e84718-1b0a-458d-bf0c-2c627c2b3f24")
+		)
+		(instances
+			(project "oled_keyboard"
+				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
+					(reference "R19")
 					(unit 1)
 				)
 			)
