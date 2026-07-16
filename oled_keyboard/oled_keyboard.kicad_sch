@@ -8693,16 +8693,6 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 149.86) (xy 447.04 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f559fc-fbc0-44eb-910b-3ecd0d0ba2e7")
-	)
-	(wire
-		(pts
 			(xy 304.8 222.25) (xy 304.8 220.98)
 		)
 		(stroke
@@ -25957,73 +25947,6 @@
 			(project "oled_keyboard"
 				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 440.69 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6585279-527e-47f4-8f3a-1f54c23dd729")
-		(property "Reference" "#PWR063"
-			(at 434.34 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 436.88 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 440.69 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 440.69 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 440.69 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e92fe80-6011-42e8-8f82-d3eea651f60c")
-		)
-		(instances
-			(project "oled_keyboard"
-				(path "/93cb1d80-50e0-4756-95e4-c1195d62fad8"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
