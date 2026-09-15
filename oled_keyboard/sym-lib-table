@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LVC125")(type "KiCad")(uri "D:/personal_projects/oled_keyboard/components/SN74LVC125ADTG4/SN74LVC125ADTG4.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC1G125DBVT")(type "KiCad")(uri "D:/personal_projects/oled_keyboard/components/SN74LVC1G125DBVT/SN74LVC1G125DBVT.kicad_sym")(options "")(descr ""))
+)
